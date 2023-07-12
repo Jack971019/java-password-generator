@@ -15,7 +15,7 @@ public class passwordgenerator {
 
         userName = "Giacomo";
         userSurname = "Testori";
-        userFavoriteColor = "blue";
+        userFavoriteColor = "blu";
         userdayofbirth = 10;
         usermonthofbirth = 9;
         useryearofbirth = 1997;
@@ -29,7 +29,24 @@ public class passwordgenerator {
         System.out.println("la tua password è:" + userName + userSurname + userFavoriteColor + userpasswordnumber);
 
 
+        //BONUS
 
+        //creazione variabili
+/*
+        String usernameBonus;
+        String usersurnameBonus;
+        String userfavoritecolorBonus;
+        int userdayofbirthBonus;
+        int usermonthohbirthBonus;
+        int useryearofbirthBonus;
 
+        // assegnazione valori variabili scritte dall'utente in console
+
+        System.out.println("scrivi il tuo nome:");
+        //usernameBonus = scanner.nextInt();
+        System.out.println("scrivi il tuo cognome:");
+        System.out.println("scrivi il tuo colore preferito:");
+
+*/
     }
 }
