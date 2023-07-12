@@ -28,7 +28,7 @@ public class passwordgenerator {
 
         // genero password
 
-        System.out.println("la tua password è:" + userName + userSurname + userFavoriteColor + userpasswordnumber);
+        System.out.println("la tua password è:" + userName + "-" + userSurname + "-" + userFavoriteColor + "-" + userpasswordnumber);
 
 
         //BONUS
@@ -64,7 +64,7 @@ public class passwordgenerator {
         System.out.println("scrivi il tuo anno di nascita:");
         useryearofbirthBonus = scanner.nextInt();
 
-        System.out.println("la tua nuova password è:" + usernameBonus + usersurnameBonus + userfavoritecolorBonus + (userdayofbirthBonus + usermonthohbirthBonus+ useryearofbirthBonus) );
+        System.out.println("la tua nuova password è:" + usernameBonus + "-" + usersurnameBonus + "-" + userfavoritecolorBonus + "-" + (userdayofbirthBonus + usermonthohbirthBonus + useryearofbirthBonus));
 
         //BONUS REPOSITORY COMPLETED
 
