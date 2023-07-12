@@ -66,6 +66,7 @@ public class passwordgenerator {
 
         System.out.println("la tua nuova password è:" + usernameBonus + usersurnameBonus + userfavoritecolorBonus + (userdayofbirthBonus + usermonthohbirthBonus+ useryearofbirthBonus) );
 
+        //BONUS REPOSITORY COMPLETED
 
     }
 }
