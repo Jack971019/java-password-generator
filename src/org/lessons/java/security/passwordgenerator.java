@@ -1,5 +1,7 @@
 package org.lessons.java.security;
 
+import java.util.Scanner;
+
 public class passwordgenerator {
     public static void main(String[] args) {
         //creazione variabili
@@ -31,8 +33,9 @@ public class passwordgenerator {
 
         //BONUS
 
+        Scanner scanner = new Scanner(System.in);
         //creazione variabili
-/*
+
         String usernameBonus;
         String usersurnameBonus;
         String userfavoritecolorBonus;
@@ -43,10 +46,26 @@ public class passwordgenerator {
         // assegnazione valori variabili scritte dall'utente in console
 
         System.out.println("scrivi il tuo nome:");
-        //usernameBonus = scanner.nextInt();
-        System.out.println("scrivi il tuo cognome:");
-        System.out.println("scrivi il tuo colore preferito:");
+        usernameBonus = scanner.next();
 
-*/
+        System.out.println("scrivi il tuo cognome:");
+        usersurnameBonus = scanner.next();
+
+
+        System.out.println("scrivi il tuo colore preferito:");
+        userfavoritecolorBonus = scanner.next();
+
+        System.out.println("scrivi il giorno in cui sei nato:");
+        userdayofbirthBonus = scanner.nextInt();
+
+        System.out.println("scrivi il tuo mese di nascita:");
+        usermonthohbirthBonus = scanner.nextInt();
+
+        System.out.println("scrivi il tuo anno di nascita:");
+        useryearofbirthBonus = scanner.nextInt();
+
+        System.out.println("la tua nuova password è:" + usernameBonus + usersurnameBonus + userfavoritecolorBonus + (userdayofbirthBonus + usermonthohbirthBonus+ useryearofbirthBonus) );
+
+
     }
 }
